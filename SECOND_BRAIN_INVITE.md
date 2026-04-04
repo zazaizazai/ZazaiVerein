@@ -13,6 +13,7 @@ Datei vorhanden = eingeladen, fehlt = aus. **Trigger:** „Paul, lies die Invite
 - **Geschäftsordnung (PDF, ggf. Altstand):** `Geschaeftsordnung.pdf`  
 - **Geschäftsordnung (TXT, an Satzung 2026 angepasst — von MV zu genehmigen):** `Geschaeftsordnung.txt`  
 - **MV-Kurzliste (Änderungen GO vs. alte PDF):** `MV_Geschaeftsordnung_Aenderungen.txt`  
+- **Offene Schritte (MV, Register):** `TODO.md`  
 - **Logo:** `Logo.jpeg` (Vereinslogo im Arbeitsordner)
 
 ## Kurzfakten (Satzung 2026)
