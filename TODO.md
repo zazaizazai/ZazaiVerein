@@ -9,7 +9,8 @@ Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 - [ ] **Mitgliederversammlung** terminieren und einberufen (§ 9 Satzung: Frist, Tagesordnung, Textform)
 - [ ] **Geschäftsordnung** genehmigen — Fassung: `Geschaeftsordnung.txt` (nicht die alte PDF allein). Kurzliste: `MV_Geschaeftsordnung_Aenderungen.txt`
 - [ ] **Satzungsänderungen** beschließen, die schon in `Satzung.txt` stehen (u. a. § 1 Name/e.V., § 8 Abs. 8 Mehrheit Vorstand) — **3/4**-Mehrheit (§ 10 Abs. 2)
-- [ ] **Register:** beschlossene Satzung / GO beim zuständigen **Amtsgericht (Vereinsregister)** anmelden; PDF-Stand im Ordner an **beschlossene** Fassung angleichen
+- [ ] **Register:** beschlossene **Satzungsänderung** beim zuständigen **Amtsgericht (Vereinsregister)** anmelden; PDF-Stand im Ordner an die **beschlossene** Fassung angleichen
+- [ ] **Geschäftsordnung** in **beschlossener** Fassung intern ablegen / archivieren
 - [ ] **Protokoll** der MV aufbewahren (Beschlüsse nachvollziehbar)
 
 ## Organisation (wenn es losgeht)
@@ -19,8 +20,7 @@ Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 
 ## Repo / Dateien (optional)
 
-- [ ] `Geschaeftsordnung.pdf` durch **genehmigte** Druck-/Archiv-PDF ersetzen oder klar als „ersetzt“ markieren
-- [ ] Nach MV: `git add` / `commit` / `push` für [ZazaiVerein](https://github.com/zazaizazai/ZazaiVerein)
+- [ ] Nach MV: beschlossene Fassungen im Ordner + [ZazaiVerein](https://github.com/zazaizazai/ZazaiVerein) abgleichen (`git add` / `commit` / `push`)
 
 ---
 
