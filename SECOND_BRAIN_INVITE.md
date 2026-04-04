@@ -4,7 +4,8 @@ Datei vorhanden = eingeladen, fehlt = aus. **Trigger:** „Paul, lies die Invite
 
 ## Projekt
 
-- **Arbeitsordner:** `C:\Users\Fawad\OneDrive - Helmut-Schmidt-Universität\Projekte\Zazai_Verein`  
+- **Arbeitsordner (Verein):** `C:\Users\Fawad\OneDrive - Helmut-Schmidt-Universität\Projekte\Zazai_Verein`  
+- **Second Brain (Vault):** `C:\Users\Fawad\OneDrive - Helmut-Schmidt-Universität\Projekte\SecondBrain` — Git: [github.com/zazaizazai/SecondBrain](https://github.com/zazaizazai/SecondBrain)  
 - **Verein:** Aryob Zazai Sozial- und Kulturverein (e.V. nach Register), Sitz Hamburg  
 - **Ziel:** Gemeinnützige/mildtätige Arbeit: Begegnung, Integration, Kultur, soziale und bildungsnahe Unterstützung (satzungskonform).  
 - **Satzung (maßgeblich):** `Satzung –  Vollständige Fassung 2026.pdf`  
