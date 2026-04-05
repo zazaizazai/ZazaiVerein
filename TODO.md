@@ -38,3 +38,9 @@ Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 - [x] Satzung `Satzung.txt` bearbeitet (§ 1, § 8 Abs. 8) — *wirksam erst nach MV + Eintragung*
 - [x] `Geschaeftsordnung.txt` an Satzung angepasst; MV-Kurzliste angelegt
 - [x] Repo GitHub: `ZazaiVerein`; SecondBrain verlinkt (`SECOND_BRAIN_INVITE.md` + Vault-Notiz)
+- [x] `MV_Protokoll_Checkliste.md` erstellt (registertaugliche Pruefpunkte)
+- [x] `MV_Protokoll_Vorlage.md` erstellt (ausfuehrliche Vorlage)
+- [x] `MV_Protokoll_UltraKurz.md` erstellt (1-Seite)
+- [x] `Vorstandsprotokoll_UltraKurz.md` erstellt (1-Seite)
+- [x] `Einladung_Mitgliederversammlung_Vorlage.md` erstellt
+- [x] `Mitgliedsantrag_Vorlage.md` erstellt
