@@ -29,27 +29,41 @@ export default function KontaktLocalizedContent() {
   const t = content[lang];
 
   return (
-    <div className={`page ${lang === "ps" ? "lang-ps" : ""}`}>
+    <div
+      className={`page ${lang === "ps" ? "lang-ps" : ""}`}
+      lang={lang === "ps" ? "ps" : "de"}
+    >
       <section className="card">
         <h1>{t.title}</h1>
         <p>{t.intro}</p>
 
         <div className="contact-block">
           <p>
-            <strong>{t.labelEmail}</strong> aryobzazai.ev@hotmail.com
+            <strong>{t.labelEmail}</strong>{" "}
+            <span className="bidi-ltr" dir="ltr">
+              aryobzazai.ev@hotmail.com
+            </span>
           </p>
           <p>
-            <strong>{t.labelAddress}</strong> Postfach 26 11 13, 20501 Hamburg
+            <strong>{t.labelAddress}</strong>{" "}
+            <span className="bidi-ltr" dir="ltr">
+              Postfach 26 11 13, 20501 Hamburg
+            </span>
           </p>
           <p>
-            <strong>{t.labelPhone}</strong> 0163 9507480
+            <strong>{t.labelPhone}</strong>{" "}
+            <span className="bidi-ltr" dir="ltr">
+              0163 9507480
+            </span>
           </p>
         </div>
 
         <p>
-          {t.note}
-          {" "}
-          aryobzazai.ev@hotmail.com.
+          {t.note}{" "}
+          <span className="bidi-ltr" dir="ltr">
+            aryobzazai.ev@hotmail.com
+          </span>
+          .
         </p>
       </section>
     </div>

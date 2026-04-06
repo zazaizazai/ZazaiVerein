@@ -14,8 +14,12 @@ const content = {
     supporterText:
       "Fördermitglieder unterstützen den Verein ideell oder finanziell. Sie begleiten die Vereinsarbeit ohne Stimm- und Wahlrecht.",
     formTitle: "Mitgliedsantrag",
-    formText:
-      "Den Mitgliedsantrag stellen wir als Download bereit. Bitte senden Sie den ausgefüllten Antrag an aryobzazai.ev@hotmail.com.",
+    formText: (
+      <>
+        Den Mitgliedsantrag stellen wir als Download bereit. Bitte senden Sie
+        den ausgefüllten Antrag an aryobzazai.ev@hotmail.com.
+      </>
+    ),
     formButton: "Mitgliedsantrag herunterladen",
   },
   ps: {
@@ -29,8 +33,15 @@ const content = {
     supporterText:
       "د ملاتړ غړي ټولنه په فکري یا مالي ډول مرسته کوي. دوی د رایې او ټاکنې حق نه لري.",
     formTitle: "د غړیتوب غوښتنلیک",
-    formText:
-      "د غړیتوب غوښتنلیک د ډاونلوډ لپاره چمتو دی. مهرباني وکړئ ډک شوی غوښتنلیک دې ایمېل ته راولېږئ: aryobzazai.ev@hotmail.com",
+    formText: (
+      <>
+        د غړیتوب غوښتنلیک د ډاونلوډ لپاره چمتو دی. مهرباني وکړئ ډک شوی
+        غوښتنلیک دې ایمېل ته راولېږئ:{" "}
+        <span className="bidi-ltr" dir="ltr">
+          aryobzazai.ev@hotmail.com
+        </span>
+      </>
+    ),
     formButton: "د غړیتوب غوښتنلیک ډاونلوډ",
   },
 };
@@ -41,7 +52,10 @@ export default function MitmachenLocalizedContent() {
   const t = content[lang];
 
   return (
-    <div className={`page ${lang === "ps" ? "lang-ps" : ""}`}>
+    <div
+      className={`page ${lang === "ps" ? "lang-ps" : ""}`}
+      lang={lang === "ps" ? "ps" : "de"}
+    >
       <section className="card">
         <h1>{t.title}</h1>
         <p>{t.intro}</p>

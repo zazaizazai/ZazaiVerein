@@ -12,8 +12,13 @@ const content = {
     ctaJoin: "Mitmachen",
     ctaContact: "Kontakt aufnehmen",
     aboutTitle: "Über den Verein",
-    aboutText1:
-      "Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnütziger Sozial- und Kulturverein mit Sitz in Hamburg. Wir fördern Austausch, Zusammenhalt und praktische Unterstützung im Alltag.",
+    aboutText1: (
+      <>
+        Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnütziger
+        Sozial- und Kulturverein mit Sitz in Hamburg. Wir fördern Austausch,
+        Zusammenhalt und praktische Unterstützung im Alltag.
+      </>
+    ),
     aboutText2:
       "Grundlage unserer Arbeit sind Transparenz, Verlässlichkeit und respektvoller Umgang.",
     joinTitle: "Mitmachen",
@@ -21,8 +26,12 @@ const content = {
       "Mitgliedschaft ist als ordentliche Mitgliedschaft oder Fördermitgliedschaft möglich. Wenn Sie sich einbringen oder den Verein unterstützen möchten, finden Sie alle Informationen unter „Mitmachen“.",
     joinLink: "Zur Seite Mitmachen",
     contactTitle: "Kontakt",
-    contactText:
-      "Für Fragen zu Vereinsarbeit, Mitgliedschaft oder Kooperationen erreichen Sie uns über aryobzazai.ev@hotmail.com.",
+    contactText: (
+      <>
+        Für Fragen zu Vereinsarbeit, Mitgliedschaft oder Kooperationen erreichen
+        Sie uns über aryobzazai.ev@hotmail.com.
+      </>
+    ),
     contactLink: "Zur Kontaktseite",
   },
   ps: {
@@ -33,8 +42,15 @@ const content = {
     ctaJoin: "ګډون وکړئ",
     ctaContact: "اړیکه ونیسئ",
     aboutTitle: "د ټولنې په اړه",
-    aboutText1:
-      "Aryob Zazai Sozial- und Kulturverein e.V. په هامبورګ کې یو عامه ګټې ټولنیز او کلتوري بنسټ دی. موږ د یو بل سره اړیکه، یووالی او عملي ملاتړ پیاوړی کوو.",
+    aboutText1: (
+      <>
+        <span className="bidi-ltr" dir="ltr" lang="de">
+          Aryob Zazai Sozial- und Kulturverein e.V.
+        </span>{" "}
+        په هامبورګ کې یو عامه ګټې ټولنیز او کلتوري بنسټ دی. موږ د یو بل سره
+        اړیکه، یووالی او عملي ملاتړ پیاوړی کوو.
+      </>
+    ),
     aboutText2:
       "زموږ د کار بنسټ روڼتیا، باور او درناوی دی.",
     joinTitle: "ګډون",
@@ -42,8 +58,15 @@ const content = {
       "غړیتوب د عادي غړیتوب او د ملاتړ غړیتوب په بڼه ممکن دی. که غواړئ ونډه واخلئ یا ټولنه ملاتړ کړئ، د «ګډون» برخه وګورئ.",
     joinLink: "د ګډون پاڼې ته لاړ شئ",
     contactTitle: "اړیکه",
-    contactText:
-      "د ټولنې د کار، غړیتوب او همکارۍ په اړه پوښتنې مو دې ایمېل ته راولېږئ: aryobzazai.ev@hotmail.com",
+    contactText: (
+      <>
+        د ټولنې د کار، غړیتوب او همکارۍ په اړه پوښتنې مو دې ایمېل ته
+        راولېږئ:{" "}
+        <span className="bidi-ltr" dir="ltr">
+          aryobzazai.ev@hotmail.com
+        </span>
+      </>
+    ),
     contactLink: "د اړیکې پاڼې ته لاړ شئ",
   },
 };
@@ -61,10 +84,13 @@ export default function HomeLocalizedContent() {
   const t = content[lang];
 
   return (
-    <div className={`page ${lang === "ps" ? "lang-ps" : ""}`}>
+    <div
+      className={`page ${lang === "ps" ? "lang-ps" : ""}`}
+      lang={lang === "ps" ? "ps" : "de"}
+    >
       <section className="hero" aria-labelledby="hero-title">
         <h1 id="hero-title">
-          <span className="hero-title-ltr" dir="ltr" lang="de">
+          <span className="bidi-ltr hero-title-ltr" dir="ltr" lang="de">
             Aryob Zazai Sozial- und Kulturverein e.V.
           </span>
         </h1>

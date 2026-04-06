@@ -253,15 +253,19 @@ p {
   padding: 16px;
 }
 
+/* Pashto page blocks: RTL base; isolate so embedded LTR runs stay predictable */
 .lang-ps {
   direction: rtl;
   text-align: right;
+  unicode-bidi: isolate;
 }
 
-/* Latin legal name in RTL Pashto layout: isolate LTR so „e.V.“ does not reorder visually */
+/* Latin / numbers / email inside Pashto (Vereinsname, Kontaktdaten): own LTR embedding */
+.bidi-ltr,
 .hero-title-ltr {
   unicode-bidi: isolate;
   direction: ltr;
+  display: inline;
 }
 
 .de-only-note {

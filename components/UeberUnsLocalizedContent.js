@@ -32,7 +32,7 @@ const content = {
     title: "زموږ په اړه",
     p1: (
       <>
-        <span className="hero-title-ltr" dir="ltr" lang="de">
+        <span className="bidi-ltr hero-title-ltr" dir="ltr" lang="de">
           Aryob Zazai Sozial- und Kulturverein e.V.
         </span>{" "}
         عامه ګټې او خیراتي موخې تعقیبوي. زموږ په کار کې ټولنیز یوالی، کلتوري
@@ -62,7 +62,10 @@ export default function UeberUnsLocalizedContent() {
   const t = content[lang];
 
   return (
-    <div className={`page ${lang === "ps" ? "lang-ps" : ""}`}>
+    <div
+      className={`page ${lang === "ps" ? "lang-ps" : ""}`}
+      lang={lang === "ps" ? "ps" : "de"}
+    >
       <section className="card">
         <h1>{t.title}</h1>
         <p>{t.p1}</p>
