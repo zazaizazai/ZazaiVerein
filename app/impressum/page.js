@@ -24,12 +24,6 @@ export default function ImpressumPage() {
           20501
         </p>
 
-        <p className="de-only-note">
-          Hinweis: Fuer das Impressum wird eine ladungsfaehige Anschrift
-          benoetigt. Ein Postfach allein ist dafuer in der Regel nicht
-          ausreichend. Bitte Strasse, Hausnummer, PLZ und Ort ergaenzen.
-        </p>
-
         <p>
           <strong>Vertreten durch:</strong>
           <br />

@@ -63,7 +63,11 @@ export default function HomeLocalizedContent() {
   return (
     <div className={`page ${lang === "ps" ? "lang-ps" : ""}`}>
       <section className="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Aryob Zazai Sozial- und Kulturverein e.V.</h1>
+        <h1 id="hero-title">
+          <span className="hero-title-ltr" dir="ltr" lang="de">
+            Aryob Zazai Sozial- und Kulturverein e.V.
+          </span>
+        </h1>
         <p className="muted">{t.subtitle}</p>
         <p>{t.intro}</p>
         <div className="button-row">

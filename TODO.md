@@ -1,6 +1,6 @@
 # TODO — Aryob Zazai Sozial- und Kulturverein
 
-Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einfügen; erledigte Zeilen `[x]` setzen und Stand-Datum anpassen.
+Stand: 2026-04-06. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einfügen; erledigte Zeilen `[x]` setzen und Stand-Datum anpassen.
 
 ---
 
@@ -18,6 +18,7 @@ Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 - [ ] **Beitragsordnung** von der MV beschließen, sobald Mitgliedsbeiträge erhoben werden (§ 3 Abs. 2 Satzung)
 - [ ] **Konto / Buchführung** klären, wenn Zahlungsverkehr anfängt
 - [ ] **Website:** festen Ansprechpartner (Name + Funktion) für externe Anfragen festlegen und auf Kontaktseite eintragen
+- [ ] **Website / Impressum:** vollständige **ladungsfähige Anschrift** (Straße, Hausnummer, PLZ, Ort) klären und im Impressum eintragen — ein Postfach allein genügt dafür in der Regel nicht
 
 ## Repo / Dateien (optional)
 

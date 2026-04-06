@@ -258,6 +258,12 @@ p {
   text-align: right;
 }
 
+/* Latin legal name in RTL Pashto layout: isolate LTR so „e.V.“ does not reorder visually */
+.hero-title-ltr {
+  unicode-bidi: isolate;
+  direction: ltr;
+}
+
 .de-only-note {
   margin: 0 0 14px;
   padding: 10px 12px;
