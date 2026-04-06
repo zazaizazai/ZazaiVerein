@@ -99,6 +99,14 @@ a:focus-visible {
   font-size: 0.72rem;
 }
 
+.logo-image {
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
 .desktop-nav ul,
 .mobile-nav ul,
 .footer-links {

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import logoImage from "../Logo.jpeg";
 
 const navItems = [
   { href: "/", label: "Start" },
@@ -12,9 +14,13 @@ export default function SiteHeader() {
     <header className="header" role="banner">
       <div className="container header-inner">
         <Link className="brand" href="/">
-          <span className="logo-placeholder" aria-hidden="true">
-            Logo
-          </span>
+          <Image
+            src={logoImage}
+            alt="Logo Aryob Zazai Sozial- und Kulturverein"
+            width={34}
+            height={34}
+            className="logo-image"
+          />
           <span>Aryob Zazai Sozial- und Kulturverein e.V.</span>
         </Link>
 
