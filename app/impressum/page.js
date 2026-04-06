@@ -3,7 +3,7 @@ import DeOnlyNotice from "../../components/DeOnlyNotice";
 
 export const metadata = {
   title: "Impressum | Aryob Zazai Sozial- und Kulturverein e.V.",
-  description: "Impressumsangaben gemäß § 5 TMG.",
+  description: "Impressumsangaben gemäß § 5 DDG.",
 };
 
 export default function ImpressumPage() {
@@ -14,16 +14,20 @@ export default function ImpressumPage() {
         <Suspense fallback={null}>
           <DeOnlyNotice />
         </Suspense>
-        <p>Angaben gemäß § 5 TMG</p>
+        <p>Angaben gemäß § 5 DDG</p>
 
         <p>
           Aryob Zazai Sozial- und Kulturverein e.V.
           <br />
-          e.V.
-          <br />
           Postfach 26 11 13
           <br />
           20501
+        </p>
+
+        <p className="de-only-note">
+          Hinweis: Fuer das Impressum wird eine ladungsfaehige Anschrift
+          benoetigt. Ein Postfach allein ist dafuer in der Regel nicht
+          ausreichend. Bitte Strasse, Hausnummer, PLZ und Ort ergaenzen.
         </p>
 
         <p>
