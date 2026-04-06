@@ -1,0 +1,27 @@
+{
+  "name": "zazai_verein",
+  "version": "1.0.0",
+  "description": "MVP-Website fuer den Aryob Zazai Sozial- und Kulturverein",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazaizazai/ZazaiVerein.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zazaizazai/ZazaiVerein/issues"
+  },
+  "homepage": "https://github.com/zazaizazai/ZazaiVerein#readme",
+  "dependencies": {
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

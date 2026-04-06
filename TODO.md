@@ -17,6 +17,7 @@ Stand: 2026-04-04. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 
 - [ ] **Beitragsordnung** von der MV beschließen, sobald Mitgliedsbeiträge erhoben werden (§ 3 Abs. 2 Satzung)
 - [ ] **Konto / Buchführung** klären, wenn Zahlungsverkehr anfängt
+- [ ] **Website:** festen Ansprechpartner (Name + Funktion) für externe Anfragen festlegen und auf Kontaktseite eintragen
 
 ## Repo / Dateien (optional)
 
