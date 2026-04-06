@@ -31,7 +31,7 @@ export default function HomePage() {
       </section>
 
       <section className="card" aria-labelledby="verein">
-        <h2 id="verein">Ueber den Verein</h2>
+        <h2 id="verein">Über den Verein</h2>
         <p>
           Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnuetziger
           Sozial- und Kulturverein mit Sitz in Hamburg. Wir foerdern Austausch,
