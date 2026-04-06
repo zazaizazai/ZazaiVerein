@@ -16,7 +16,7 @@ export default function KontaktPage() {
             <strong>E-Mail:</strong> aryobzazai.ev@hotmail.com
           </p>
           <p>
-            <strong>Adresse:</strong> Postfach 26 11 13, 20501
+            <strong>Adresse:</strong> Postfach 26 11 13, 20501 Hamburg
           </p>
           <p>
             <strong>Telefon:</strong> 0163 9507480
@@ -25,7 +25,7 @@ export default function KontaktPage() {
 
         <p>
           Anfragen zu Mitgliedschaft, Zusammenarbeit oder Projekten richten Sie
-          bitte an unsere Vereinsadresse:
+          bitte an unsere Vereins-E-Mail:
           {" "}
           aryobzazai.ev@hotmail.com.
         </p>
