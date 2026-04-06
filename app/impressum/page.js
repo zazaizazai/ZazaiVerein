@@ -1,3 +1,6 @@
+import { Suspense } from "react";
+import DeOnlyNotice from "../../components/DeOnlyNotice";
+
 export const metadata = {
   title: "Impressum | Aryob Zazai Sozial- und Kulturverein e.V.",
   description: "Impressumsangaben gemäß § 5 TMG.",
@@ -8,6 +11,9 @@ export default function ImpressumPage() {
     <div className="page">
       <section className="card">
         <h1>Impressum</h1>
+        <Suspense fallback={null}>
+          <DeOnlyNotice />
+        </Suspense>
         <p>Angaben gemäß § 5 TMG</p>
 
         <p>

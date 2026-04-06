@@ -120,6 +120,23 @@ a:focus-visible {
   gap: 18px;
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.lang-switch a {
+  color: var(--muted);
+}
+
+.lang-switch a.lang-active {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .desktop-nav a {
   color: var(--text);
   font-weight: 500;
@@ -234,6 +251,19 @@ p {
   border: 1px dashed var(--border);
   border-radius: 10px;
   padding: 16px;
+}
+
+.lang-ps {
+  direction: rtl;
+  text-align: right;
+}
+
+.de-only-note {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #f8fbff;
 }
 
 .footer {

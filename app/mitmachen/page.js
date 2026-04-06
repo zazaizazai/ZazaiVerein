@@ -1,3 +1,6 @@
+import MitmachenLocalizedContent from "../../components/MitmachenLocalizedContent";
+import { Suspense } from "react";
+
 export const metadata = {
   title: "Mitmachen | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
@@ -6,43 +9,8 @@ export const metadata = {
 
 export default function MitmachenPage() {
   return (
-    <div className="page">
-      <section className="card">
-        <h1>Mitmachen</h1>
-        <p>
-          Wir freuen uns über Menschen, die sich aktiv einbringen oder den
-          Verein dauerhaft unterstützen möchten.
-        </p>
-
-        <h2>Ordentliche Mitgliedschaft</h2>
-        <p>
-          Ordentliche Mitglieder nehmen am Vereinsleben aktiv teil und haben
-          Stimm- und Wahlrecht gemäß Satzung. Die Aufnahme erfolgt auf
-          schriftlichen Antrag beim Vorstand.
-        </p>
-
-        <h2>Fördermitgliedschaft</h2>
-        <p>
-          Fördermitglieder unterstützen den Verein ideell oder finanziell. Sie
-          begleiten die Vereinsarbeit ohne Stimm- und Wahlrecht.
-        </p>
-
-        <h2>Mitgliedsantrag</h2>
-        <p>
-          Den Mitgliedsantrag stellen wir als Download bereit. Bitte senden Sie
-          den ausgefüllten Antrag an aryobzazai.ev@hotmail.com.
-        </p>
-        <div className="button-row">
-          <a
-            className="button"
-            href="/downloads/Mitgliedsantrag_Vorlage.md"
-            download
-            aria-label="Mitgliedsantrag herunterladen"
-          >
-            Mitgliedsantrag herunterladen
-          </a>
-        </div>
-      </section>
-    </div>
+    <Suspense fallback={<div className="page" />}>
+      <MitmachenLocalizedContent />
+    </Suspense>
   );
 }

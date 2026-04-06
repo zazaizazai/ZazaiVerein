@@ -1,3 +1,6 @@
+import KontaktLocalizedContent from "../../components/KontaktLocalizedContent";
+import { Suspense } from "react";
+
 export const metadata = {
   title: "Kontakt | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
@@ -6,30 +9,8 @@ export const metadata = {
 
 export default function KontaktPage() {
   return (
-    <div className="page">
-      <section className="card">
-        <h1>Kontakt</h1>
-        <p>Bei Fragen oder Anliegen können Sie uns gerne kontaktieren.</p>
-
-        <div className="contact-block">
-          <p>
-            <strong>E-Mail:</strong> aryobzazai.ev@hotmail.com
-          </p>
-          <p>
-            <strong>Adresse:</strong> Postfach 26 11 13, 20501 Hamburg
-          </p>
-          <p>
-            <strong>Telefon:</strong> 0163 9507480
-          </p>
-        </div>
-
-        <p>
-          Anfragen zu Mitgliedschaft, Zusammenarbeit oder Projekten richten Sie
-          bitte an unsere Vereins-E-Mail:
-          {" "}
-          aryobzazai.ev@hotmail.com.
-        </p>
-      </section>
-    </div>
+    <Suspense fallback={<div className="page" />}>
+      <KontaktLocalizedContent />
+    </Suspense>
   );
 }

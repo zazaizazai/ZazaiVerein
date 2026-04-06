@@ -1,3 +1,6 @@
+import { Suspense } from "react";
+import DeOnlyNotice from "../../components/DeOnlyNotice";
+
 export const metadata = {
   title: "Datenschutz | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
@@ -9,6 +12,9 @@ export default function DatenschutzPage() {
     <div className="page">
       <section className="card">
         <h1>Datenschutz</h1>
+        <Suspense fallback={null}>
+          <DeOnlyNotice />
+        </Suspense>
 
         <h2>1. Verantwortliche Stelle</h2>
         <p>

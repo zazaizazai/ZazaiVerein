@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Suspense } from "react";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -16,11 +17,15 @@ export default function RootLayout({ children }) {
           Zum Inhalt springen
         </a>
         <div className="site-wrap">
-          <SiteHeader />
+          <Suspense fallback={null}>
+            <SiteHeader />
+          </Suspense>
           <main id="inhalt" className="main">
             {children}
           </main>
-          <SiteFooter />
+          <Suspense fallback={null}>
+            <SiteFooter />
+          </Suspense>
         </div>
       </body>
     </html>
