@@ -5,7 +5,7 @@ import SiteFooter from "../components/SiteFooter";
 export const metadata = {
   title: "Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
-    "Sozial- und Kulturarbeit in Hamburg - gemeinnuetzig, offen und verlaesslich.",
+    "Sozial- und Kulturarbeit in Hamburg - gemeinnützig, offen und verlässlich.",
 };
 
 export default function RootLayout({ children }) {

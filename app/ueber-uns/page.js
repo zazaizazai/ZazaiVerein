@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Über uns | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
-    "Zweck, Selbstverstaendnis und Taetigkeit des Aryob Zazai Sozial- und Kulturverein e.V. in Hamburg.",
+    "Zweck, Selbstverständnis und Tätigkeit des Aryob Zazai Sozial- und Kulturverein e.V. in Hamburg.",
 };
 
 export default function UeberUnsPage() {
@@ -10,21 +10,21 @@ export default function UeberUnsPage() {
       <section className="card">
         <h1>Über uns</h1>
         <p>
-          Der Aryob Zazai Sozial- und Kulturverein e.V. verfolgt gemeinnuetzige
-          und mildtaetige Zwecke. Im
+          Der Aryob Zazai Sozial- und Kulturverein e.V. verfolgt gemeinnützige
+          und mildtätige Zwecke. Im
           Mittelpunkt stehen gesellschaftlicher Zusammenhalt, kultureller
-          Austausch und konkrete Unterstuetzung fuer Menschen, die Hilfe
-          benoetigen.
+          Austausch und konkrete Unterstützung für Menschen, die Hilfe
+          benötigen.
         </p>
         <p>
-          Wir arbeiten parteipolitisch unabhaengig und ueberkonfessionell.
-          Unsere Vereinsarbeit ist auf langfristige, verlaessliche
+          Wir arbeiten parteipolitisch unabhängig und überkonfessionell.
+          Unsere Vereinsarbeit ist auf langfristige, verlässliche
           Zusammenarbeit ausgerichtet und orientiert sich an der Satzung.
         </p>
         <p>
-          Unsere Taetigkeit umfasst insbesondere kulturelle, soziale und
-          bildungsbezogene Angebote. Dazu gehoeren Begegnung, Orientierung,
-          Unterstuetzung im Alltag und die Foerderung gesellschaftlicher
+          Unsere Tätigkeit umfasst insbesondere kulturelle, soziale und
+          bildungsbezogene Angebote. Dazu gehören Begegnung, Orientierung,
+          Unterstützung im Alltag und die Förderung gesellschaftlicher
           Teilhabe.
         </p>
       </section>

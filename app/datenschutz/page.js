@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Datenschutz | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
-    "Datenschutzhinweise fuer die Website des Aryob Zazai Sozial- und Kulturverein e.V.",
+    "Datenschutzhinweise für die Website des Aryob Zazai Sozial- und Kulturverein e.V.",
 };
 
 export default function DatenschutzPage() {
@@ -12,7 +12,7 @@ export default function DatenschutzPage() {
 
         <h2>1. Verantwortliche Stelle</h2>
         <p>
-          Verantwortlich fuer die Datenverarbeitung auf dieser Website ist:
+          Verantwortlich für die Datenverarbeitung auf dieser Website ist:
           <br />
           Aryob Zazai Sozial- und Kulturverein e.V.
           <br />
@@ -31,7 +31,7 @@ export default function DatenschutzPage() {
 
         <h2>3. Zugriff auf die Website (Server-Logdaten)</h2>
         <p>
-          Beim Aufruf dieser Website koennen technische Zugriffsdaten verarbeitet
+          Beim Aufruf dieser Website können technische Zugriffsdaten verarbeitet
           werden (z. B. Datum/Uhrzeit, aufgerufene Seite, IP-Adresse,
           Browserinformationen). Diese Daten dienen der technischen
           Bereitstellung und Sicherheit der Website.
@@ -41,21 +41,21 @@ export default function DatenschutzPage() {
         <p>
           Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre Angaben zur
           Bearbeitung Ihrer Anfrage. Die Daten werden nur so lange gespeichert,
-          wie es fuer die Bearbeitung erforderlich ist oder gesetzliche
+          wie es für die Bearbeitung erforderlich ist oder gesetzliche
           Aufbewahrungspflichten bestehen.
         </p>
 
         <h2>5. Ihre Rechte</h2>
         <p>
           Sie haben im Rahmen der gesetzlichen Vorgaben das Recht auf Auskunft,
-          Berichtigung, Loeschung, Einschraenkung der Verarbeitung und
-          Widerspruch. Ausserdem haben Sie das Recht auf Beschwerde bei einer
-          Datenschutzaufsichtsbehoerde.
+          Berichtigung, Löschung, Einschränkung der Verarbeitung und
+          Widerspruch. Außerdem haben Sie das Recht auf Beschwerde bei einer
+          Datenschutzaufsichtsbehörde.
         </p>
 
-        <h2>6. Aktualitaet</h2>
+        <h2>6. Aktualität</h2>
         <p>
-          Diese Datenschutzerklaerung hat den Stand: 06.04.2026. Wir behalten uns
+          Diese Datenschutzerklärung hat den Stand: 06.04.2026. Wir behalten uns
           vor, sie bei Bedarf anzupassen.
         </p>
       </section>

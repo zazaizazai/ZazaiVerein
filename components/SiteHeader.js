@@ -29,7 +29,7 @@ export default function SiteHeader() {
         </nav>
 
         <details className="mobile-nav">
-          <summary aria-label="Navigation oeffnen">Menue</summary>
+          <summary aria-label="Navigation öffnen">Menü</summary>
           <nav aria-label="Mobile Hauptnavigation">
             <ul>
               {navItems.map((item) => (

@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Impressum | Aryob Zazai Sozial- und Kulturverein e.V.",
-  description: "Impressumsangaben gemaess § 5 TMG.",
+  description: "Impressumsangaben gemäß § 5 TMG.",
 };
 
 export default function ImpressumPage() {
@@ -8,7 +8,7 @@ export default function ImpressumPage() {
     <div className="page">
       <section className="card">
         <h1>Impressum</h1>
-        <p>Angaben gemaess § 5 TMG</p>
+        <p>Angaben gemäß § 5 TMG</p>
 
         <p>
           Aryob Zazai Sozial- und Kulturverein e.V.

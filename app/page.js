@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Start | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
-    "Sozial- und Kulturarbeit in Hamburg - gemeinnuetzig, offen und verlaesslich.",
+    "Sozial- und Kulturarbeit in Hamburg - gemeinnützig, offen und verlässlich.",
 };
 
 export default function HomePage() {
@@ -12,13 +12,13 @@ export default function HomePage() {
       <section className="hero" aria-labelledby="hero-title">
         <h1 id="hero-title">Aryob Zazai Sozial- und Kulturverein e.V.</h1>
         <p className="muted">
-          Sozial- und Kulturarbeit in Hamburg - gemeinnuetzig, offen und
-          verlaesslich.
+          Sozial- und Kulturarbeit in Hamburg - gemeinnützig, offen und
+          verlässlich.
         </p>
         <p>
-          Wir setzen uns fuer Begegnung, Integration und gesellschaftliche
+          Wir setzen uns für Begegnung, Integration und gesellschaftliche
           Teilhabe ein. Unsere Arbeit orientiert sich an den in der Satzung
-          festgelegten gemeinnuetzigen und mildtaetigen Zielen.
+          festgelegten gemeinnützigen und mildtätigen Zielen.
         </p>
         <div className="button-row">
           <Link className="button" href="/mitmachen">
@@ -33,13 +33,13 @@ export default function HomePage() {
       <section className="card" aria-labelledby="verein">
         <h2 id="verein">Über den Verein</h2>
         <p>
-          Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnuetziger
-          Sozial- und Kulturverein mit Sitz in Hamburg. Wir foerdern Austausch,
+          Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnütziger
+          Sozial- und Kulturverein mit Sitz in Hamburg. Wir fördern Austausch,
           Zusammenhalt und praktische
-          Unterstuetzung im Alltag.
+          Unterstützung im Alltag.
         </p>
         <p>
-          Grundlage unserer Arbeit sind Transparenz, Verlaesslichkeit und
+          Grundlage unserer Arbeit sind Transparenz, Verlässlichkeit und
           respektvoller Umgang.
         </p>
       </section>
@@ -48,8 +48,8 @@ export default function HomePage() {
         <h2 id="mitmachen">Mitmachen</h2>
         <p>
           Mitgliedschaft ist als ordentliche Mitgliedschaft oder
-          Foerdermitgliedschaft moeglich. Wenn Sie sich einbringen oder den
-          Verein unterstuetzen moechten, finden Sie alle Informationen unter
+          Fördermitgliedschaft möglich. Wenn Sie sich einbringen oder den
+          Verein unterstützen möchten, finden Sie alle Informationen unter
           &quot;Mitmachen&quot;.
         </p>
         <Link className="button secondary" href="/mitmachen">
@@ -60,8 +60,8 @@ export default function HomePage() {
       <section className="card" aria-labelledby="kontakt">
         <h2 id="kontakt">Kontakt</h2>
         <p>
-          Fuer Fragen zu Vereinsarbeit, Mitgliedschaft oder Kooperationen
-          erreichen Sie uns ueber aryobzazai.ev@hotmail.com.
+          Für Fragen zu Vereinsarbeit, Mitgliedschaft oder Kooperationen
+          erreichen Sie uns über aryobzazai.ev@hotmail.com.
         </p>
         <Link className="button secondary" href="/kontakt">
           Zur Kontaktseite

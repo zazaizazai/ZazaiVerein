@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Kontakt | Aryob Zazai Sozial- und Kulturverein e.V.",
   description:
-    "Kontaktinformationen fuer Anfragen zu Vereinsarbeit, Mitgliedschaft und Kooperationen.",
+    "Kontaktinformationen für Anfragen zu Vereinsarbeit, Mitgliedschaft und Kooperationen.",
 };
 
 export default function KontaktPage() {
@@ -9,7 +9,7 @@ export default function KontaktPage() {
     <div className="page">
       <section className="card">
         <h1>Kontakt</h1>
-        <p>Bei Fragen oder Anliegen koennen Sie uns gerne kontaktieren.</p>
+        <p>Bei Fragen oder Anliegen können Sie uns gerne kontaktieren.</p>
 
         <div className="contact-block">
           <p>
