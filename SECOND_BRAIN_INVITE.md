@@ -20,6 +20,13 @@ Datei vorhanden = eingeladen, fehlt = aus. **Trigger:** „Paul, lies die Invite
 
 Gemeinnützig/mildtätig (AO); Zwecke u. a. Völkerverständigung, Toleranz, Hilfe für Flüchtlinge, Unterstützung Bedürftiger; Umsetzung u. a. Veranstaltungen, Integration, Bildung/Orientierung, Hilfsangebote; parteipolitisch unabhängig, überkonfessionell. Organe: Mitgliederversammlung (oberstes Organ), Vorstand § 26 BGB (Vertretung je zwei gemeinsam, Amtszeit 2 Jahre), Konvent (Ehrenamt, beratend). Ordentliche Mitglieder (ab 18) mit Stimmrecht; Fördermitglieder ohne. Satzungs-/Auflösungsbeschlüsse: 3/4-Mehrheit.
 
+## Lesemodus
+
+Standard: Paul liest zuerst nur relevante Dateien.  
+Bei Trigger „Vollscan“ liest Paul alle `.md` im aktuellen Projektordner und bestätigt danach kurz die gelesenen Dateien.
+
+Vollscan-Trigger: „Paul, Vollscan in diesem Projekt.“
+
 ## Modus
 
 **LIGHT** — keine Änderungen ohne Freigabe.
