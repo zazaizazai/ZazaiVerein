@@ -41,8 +41,8 @@ export default function SiteHeader() {
     { href: "/kontakt", label: labels.contact },
   ];
 
-  const deHref = pathname;
-  const psHref = `${pathname}?lang=ps`;
+  const deHref = withLang(pathname, "de");
+  const psHref = withLang(pathname, "ps");
 
   function allowNativeNavigation(e) {
     return (
@@ -57,19 +57,34 @@ export default function SiteHeader() {
   function goDe(e) {
     if (allowNativeNavigation(e)) return;
     e.preventDefault();
-    router.replace(pathname, { scroll: false });
+    router.replace(withLang(pathname, "de"), { scroll: false });
   }
 
   function goPs(e) {
     if (allowNativeNavigation(e)) return;
     e.preventDefault();
-    router.replace(`${pathname}?lang=ps`, { scroll: false });
+    router.replace(withLang(pathname, "ps"), { scroll: false });
+  }
+
+  /**
+   * Next.js <Link> often mishandles query changes on the same pathname (e.g. / vs /?lang=ps).
+   * Always apply the target URL explicitly so DE + „Start“ cannot land on the wrong lang.
+   */
+  function handleNavTo(e, basePath) {
+    if (allowNativeNavigation(e)) return;
+    e.preventDefault();
+    router.replace(withLang(basePath, lang), { scroll: false });
   }
 
   return (
     <header className="header" role="banner">
       <div className="container header-inner">
-        <Link className="brand" href={withLang("/", lang)}>
+        <Link
+          className="brand"
+          href={withLang("/", lang)}
+          prefetch={false}
+          onClick={(e) => handleNavTo(e, "/")}
+        >
           <Image
             src={logoImage}
             alt="Logo Aryob Zazai Sozial- und Kulturverein"
@@ -84,7 +99,13 @@ export default function SiteHeader() {
           <ul>
             {navItems.map((item) => (
               <li key={item.href}>
-                <Link href={withLang(item.href, lang)}>{item.label}</Link>
+                <Link
+                  href={withLang(item.href, lang)}
+                  prefetch={false}
+                  onClick={(e) => handleNavTo(e, item.href)}
+                >
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>
@@ -118,7 +139,13 @@ export default function SiteHeader() {
             <ul>
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <Link href={withLang(item.href, lang)}>{item.label}</Link>
+                  <Link
+                    href={withLang(item.href, lang)}
+                    prefetch={false}
+                    onClick={(e) => handleNavTo(e, item.href)}
+                  >
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
