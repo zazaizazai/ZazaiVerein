@@ -29,19 +29,19 @@ export default function MitmachenPage() {
 
         <h2>Mitgliedsantrag</h2>
         <p>
-          Den Mitgliedsantrag finden Sie hier als Download:
-          {" "}
+          Den Mitgliedsantrag stellen wir als Download bereit. Bitte senden Sie
+          den ausgefüllten Antrag an aryobzazai.ev@hotmail.com.
+        </p>
+        <div className="button-row">
           <a
+            className="button"
             href="/downloads/Mitgliedsantrag_Vorlage.md"
             download
             aria-label="Mitgliedsantrag herunterladen"
           >
             Mitgliedsantrag herunterladen
           </a>
-          .
-          Bitte senden Sie den ausgefüllten Antrag an
-          aryobzazai.ev@hotmail.com.
-        </p>
+        </div>
       </section>
     </div>
   );

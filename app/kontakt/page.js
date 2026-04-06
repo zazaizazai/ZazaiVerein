@@ -19,7 +19,7 @@ export default function KontaktPage() {
             <strong>Adresse:</strong> Postfach 26 11 13, 20501
           </p>
           <p>
-            <strong>Telefon (optional):</strong> 0163 9507480
+            <strong>Telefon:</strong> 0163 9507480
           </p>
         </div>
 
