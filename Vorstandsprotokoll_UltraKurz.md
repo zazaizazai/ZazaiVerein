@@ -18,6 +18,8 @@ Beschlusstext: "Der Vorstand beschliesst, Einladungen zu Vorstandssitzungen und 
 Ja 5 | Nein 0 | Enthaltung 0 | Ungueltig 0  
 Ergebnis: angenommen
 
+*Hinweis: Die Gruppe heisst inzwischen „Einladungen, Beschluesse und Protokolle“; im Beschlusstext steht der damalige Name.*
+
 ### TOP 2: Vorbereitung der naechsten Mitgliederversammlung
 Beschlusstext: "Der Vorstand beschliesst, die naechste Mitgliederversammlung fuer den 20.04.2026 um 18:00 Uhr einzuberufen und die Tagesordnung bis spaetestens 06.04.2026 in der Gruppe zu veroeffentlichen."  
 Ja 4 | Nein 0 | Enthaltung 1 | Ungueltig 0  
