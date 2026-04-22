@@ -212,6 +212,10 @@ p {
   margin-top: 16px;
 }
 
+.form-action-block > p {
+  margin: 12px 0 0;
+}
+
 .button {
   display: inline-block;
   padding: 10px 14px;

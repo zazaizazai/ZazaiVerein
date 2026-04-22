@@ -2,6 +2,9 @@
 
 import { useSearchParams } from "next/navigation";
 
+const VEREINSPLANER_MITGLIEDSANTRAG_URL =
+  "https://formular.vereinsplaner.com/embed/2d231e42-3909-4c83-9152-6f4feb3fe52c";
+
 const content = {
   de: {
     title: "Mitmachen",
@@ -16,11 +19,19 @@ const content = {
     formTitle: "Mitgliedsantrag",
     formText: (
       <>
-        Den Mitgliedsantrag stellen wir als Download bereit. Bitte senden Sie
-        den ausgefüllten Antrag an aryobzazai.ev@hotmail.com.
+        Den Antrag könnt ihr direkt online ausfüllen. Alternativ steht eine
+        Vorlage zum Download bereit; ausgefüllte Anträge sendet ihr bitte an{" "}
+        <span className="bidi-ltr" dir="ltr">
+          aryobzazai.ev@hotmail.com
+        </span>
+        .
       </>
     ),
-    formButton: "Mitgliedsantrag herunterladen",
+    formOnlineButton: "Antrag online stellen",
+    formOnlineAria:
+      "Mitgliedsantrag online stellen (Vereinsplaner, neuer Tab)",
+    formButton: "Vorlage herunterladen",
+    formDownloadAria: "Mitgliedsantrag-Vorlage als Datei herunterladen",
   },
   ps: {
     title: "ګډون",
@@ -35,14 +46,19 @@ const content = {
     formTitle: "د غړیتوب غوښتنلیک",
     formText: (
       <>
-        د غړیتوب غوښتنلیک د ډاونلوډ لپاره چمتو دی. مهرباني وکړئ ډک شوی
-        غوښتنلیک دې ایمېل ته راولېږئ:{" "}
+        تاسو کولی شئ غوښتنلیک په مستقیم ډول آنلاین ډک کړئ. د بدیل په توګه
+        ډاونلوډ لپاره یو نمونه شتون لري؛ ډک شوی غوښتنلیک مهرباني وکړئ دې
+        ایمېل ته ولېږئ:{" "}
         <span className="bidi-ltr" dir="ltr">
           aryobzazai.ev@hotmail.com
         </span>
       </>
     ),
-    formButton: "د غړیتوب غوښتنلیک ډاونلوډ",
+    formOnlineButton: "آنلاین غړیتوب غوښتنه",
+    formOnlineAria:
+      "د غړیتوب غوښتنلیک آنلاین ډکول (Vereinsplaner، نوی ټاب)",
+    formButton: "نمونه ډاونلوډ",
+    formDownloadAria: "د غړیتوب غوښتنلیک نمونه د فایل په توګه ډاونلوډ",
   },
 };
 
@@ -68,15 +84,27 @@ export default function MitmachenLocalizedContent() {
 
         <h2>{t.formTitle}</h2>
         <p>{t.formText}</p>
-        <div className="button-row">
-          <a
-            className="button"
-            href="/downloads/Mitgliedsantrag_Vorlage.md"
-            download
-            aria-label="Mitgliedsantrag herunterladen"
-          >
-            {t.formButton}
-          </a>
+        <div className="form-action-block">
+          <div className="button-row">
+            <a
+              className="button"
+              href={VEREINSPLANER_MITGLIEDSANTRAG_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t.formOnlineAria}
+            >
+              {t.formOnlineButton}
+            </a>
+          </div>
+          <p className="muted">
+            <a
+              href="/downloads/Mitgliedsantrag_Vorlage.md"
+              download
+              aria-label={t.formDownloadAria}
+            >
+              {t.formButton}
+            </a>
+          </p>
         </div>
       </section>
     </div>
