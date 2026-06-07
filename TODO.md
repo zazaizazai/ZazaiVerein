@@ -1,6 +1,6 @@
 # TODO — Aryob Zazai Sozial- und Kulturverein
 
-Stand: 2026-04-06. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einfügen; erledigte Zeilen `[x]` setzen und Stand-Datum anpassen.
+Stand: 2026-04-22. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einfügen; erledigte Zeilen `[x]` setzen und Stand-Datum anpassen.
 
 ---
 
@@ -19,6 +19,13 @@ Stand: 2026-04-06. Mit ChatGPT o. Ä. nutzen: Datei anhängen oder Inhalt einf
 - [ ] **Konto / Buchführung** klären, wenn Zahlungsverkehr anfängt
 - [ ] **Website:** festen Ansprechpartner (Name + Funktion) für externe Anfragen festlegen und auf Kontaktseite eintragen
 - [ ] **Website / Impressum:** vollständige **ladungsfähige Anschrift** (Straße, Hausnummer, PLZ, Ort) klären und im Impressum eintragen — ein Postfach allein genügt dafür in der Regel nicht
+
+## Vereinsplaner (Beitrittsformular)
+
+Änderungen nur in der **Vereinsplaner-Formularverwaltung** (nicht im GitHub-Repo), z. B. unter Neumitglieder / Formular bearbeiten; bei Bedarf Support fragen.
+
+- [ ] **Profilbild:** nicht mehr als Pflichtfeld (oder Feld entfernen); sinnvolle **Reihenfolge:** erst Name, Kontakt, Adresse — Foto erst später oder optional
+- [ ] **Bankverbindung (IBAN, BIC, Kontoinhaber, Bank):** auf **optional** stellen (oder Block ganz weglassen), sofern das zur Beitrags-/SEPA-Praxis des Vereins passt; ggf. Hinweis, dass Bankdaten **nach** Aufnahme nachgereicht werden können
 
 ## Repo / Dateien (optional)
 

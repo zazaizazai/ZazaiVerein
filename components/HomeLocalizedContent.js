@@ -6,21 +6,22 @@ import { useSearchParams } from "next/navigation";
 const content = {
   de: {
     subtitle:
-      "Sozial- und Kulturarbeit in Hamburg - gemeinnützig, offen und verlässlich.",
+      "Gemeinnützige Sozial- und Kulturarbeit in Hamburg — für Begegnung, Integration und Unterstützung im Alltag.",
     intro:
-      "Wir setzen uns für Begegnung, Integration und gesellschaftliche Teilhabe ein. Unsere Arbeit orientiert sich an den in der Satzung festgelegten gemeinnützigen und mildtätigen Zielen.",
+      "Wir fördern Begegnung zwischen Menschen unterschiedlicher Herkunft und Kulturen sowie gesellschaftliche Teilhabe. Dazu bieten wir soziale und bildungsbezogene Angebote sowie Unterstützung für bedürftige Menschen und Familien.",
     ctaJoin: "Mitmachen",
     ctaContact: "Kontakt aufnehmen",
     aboutTitle: "Über den Verein",
     aboutText1: (
       <>
         Der Aryob Zazai Sozial- und Kulturverein e.V. ist ein gemeinnütziger
-        Sozial- und Kulturverein mit Sitz in Hamburg. Wir fördern Austausch,
-        Zusammenhalt und praktische Unterstützung im Alltag.
+        Verein mit Sitz in Hamburg. Wir setzen uns für Toleranz,
+        gegenseitiges Verständnis und praktische Hilfe ein — durch
+        Veranstaltungen, Begegnungsangebote und Unterstützung im Alltag.
       </>
     ),
     aboutText2:
-      "Grundlage unserer Arbeit sind Transparenz, Verlässlichkeit und respektvoller Umgang.",
+      "Wir sind parteipolitisch unabhängig und überkonfessionell. Unser Handeln ist geprägt von Transparenz, Verlässlichkeit und respektvollem Miteinander.",
     joinTitle: "Mitmachen",
     joinText:
       "Mitgliedschaft ist als ordentliche Mitgliedschaft oder Fördermitgliedschaft möglich. Wenn Sie sich einbringen oder den Verein unterstützen möchten, finden Sie alle Informationen unter „Mitmachen“.",
