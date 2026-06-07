@@ -80,6 +80,16 @@ a:focus-visible {
   padding: 14px 0;
 }
 
+.header-inner[dir="rtl"] .brand {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.header-inner[dir="rtl"] .desktop-nav ul,
+.header-inner[dir="rtl"] .mobile-nav ul {
+  direction: rtl;
+}
+
 .brand {
   display: inline-flex;
   align-items: center;

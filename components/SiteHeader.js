@@ -77,8 +77,15 @@ export default function SiteHeader() {
   }
 
   return (
-    <header className="header" role="banner">
-      <div className="container header-inner">
+    <header
+      className="header"
+      role="banner"
+      lang={lang === "ps" ? "ps" : "de"}
+    >
+      <div
+        className="container header-inner"
+        dir={lang === "ps" ? "rtl" : "ltr"}
+      >
         <Link
           className="brand"
           href={withLang("/", lang)}
@@ -92,10 +99,15 @@ export default function SiteHeader() {
             height={34}
             className="logo-image"
           />
-          <span>Aryob Zazai Sozial- und Kulturverein e.V.</span>
+          <span className="bidi-ltr" dir="ltr" lang="de">
+            Aryob Zazai Sozial- und Kulturverein e.V.
+          </span>
         </Link>
 
-        <nav className="desktop-nav" aria-label="Hauptnavigation">
+        <nav
+          className="desktop-nav"
+          aria-label={lang === "ps" ? "اصلي لارښود" : "Hauptnavigation"}
+        >
           <ul>
             {navItems.map((item) => (
               <li key={item.href}>
@@ -134,8 +146,14 @@ export default function SiteHeader() {
         </div>
 
         <details className="mobile-nav">
-          <summary aria-label="Navigation öffnen">Menü</summary>
-          <nav aria-label="Mobile Hauptnavigation">
+          <summary aria-label={lang === "ps" ? "مینو پرانیزئ" : "Navigation öffnen"}>
+            {lang === "ps" ? "مینو" : "Menü"}
+          </summary>
+          <nav
+            aria-label={
+              lang === "ps" ? "اصلي لارښود (موبایل)" : "Mobile Hauptnavigation"
+            }
+          >
             <ul>
               {navItems.map((item) => (
                 <li key={item.href}>
