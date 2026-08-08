@@ -1,5 +1,7 @@
 import MitmachenLocalizedContent from "../../components/MitmachenLocalizedContent";
 import { Suspense } from "react";
+import { redirect } from "next/navigation";
+import { SITE_PAUSED } from "../../lib/sitePaused";
 
 export const metadata = {
   title: "Mitmachen | Aryob Zazai Sozial- und Kulturverein e.V.",
@@ -8,6 +10,10 @@ export const metadata = {
 };
 
 export default function MitmachenPage() {
+  if (SITE_PAUSED) {
+    redirect("/");
+  }
+
   return (
     <Suspense fallback={<div className="page" />}>
       <MitmachenLocalizedContent />
